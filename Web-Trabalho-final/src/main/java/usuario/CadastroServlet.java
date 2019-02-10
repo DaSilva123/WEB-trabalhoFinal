@@ -1,5 +1,11 @@
 package usuario;
 
-public class CadastroServlet {
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet(urlPatterns="/cadastroUsuario")
+public class CadastroServlet extends HttpServlet{
+	
+	
 
 }

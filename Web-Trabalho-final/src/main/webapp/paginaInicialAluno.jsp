@@ -4,11 +4,27 @@
 <html>
 <head>
 <link rel="stylesheet" href="w3.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+	integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+	crossorigin="anonymous">
 <style>
+
+.menu {
+	text-align: right;
+}
+
+.usuario {
+	background: gray;
+	margin-left: 75%;
+	margin-right: 5%;
+}
 /* Header/Blog Title */
 .header {
 	padding: 30px;
-	text-align: center;  
+	text-align: center;
 	background: white;
 }
 
@@ -38,10 +54,7 @@
 }
 </style>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-	<title>Login</title>
+<title>Pagina Inicial</title>
 </head>
 <body>
 	<div class="header">
@@ -49,47 +62,25 @@
 		<p>Efetue seu cadastro, cheque os artigos que ja foram corrigitos
 			e mais</p>
 	</div>
-
 	<div class="topnav">
-		<a href="cadastrar.jsp">Cadastro</a> <a href="verBanco">Banco</a>
-		<a href="#">Sobre o Desenvolvedor</a>
+		<a href="cadastrar.jsp">Artigos em espera</a> <a href="verBanco">Artigos
+			avaliados</a> <a href="#">Artigos ja postados</a> <a href="#">Configurações</a>
 	</div>
 
 	<div class="w3-container w3-black">
 		<center>
-			<h2>Login</h2>
+			<h2>Pagina inicial</h2>
 		</center>
 	</div>
-
-	<div class="w3-card-4 w3-round">
-		<form action="" method="post"
-			class="w3-container ">
-
-			<br>
-			<div class="w3-row-padding">
-				<div class="w3-half ">
-
-					<label class="w3-text-grey"><b>Login</b></label> <input
-						class="w3-input" type="text" placeholder="Preencha o campo"
-						name="nome">
-
-				</div>
-				<br> <br> <br> <br>
-				<div class="w3-half">
-
-					<label class="w3-text-grey"><b>Senha</b></label> <input
-						class="w3-input" type="password" placeholder="Preencha o campo"
-						name="snome">
-
-				</div>
-			</div>
-
-			<br> <br> <input type="submit"
-				class="w3-btn w3-grey w3-round w3-margin"> <br> <br>
-
-		</form>
+	<div class="usuario">
+		<i class="glyphicon glyphicon-user"></i><label> nome do
+			usuario</label>
 	</div>
+      <fieldset>
+        <legend>Seus artigos</legend>
+        
+       
+      </fieldset>
+	
 </body>
-
-
 </html>
